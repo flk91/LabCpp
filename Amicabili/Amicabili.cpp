@@ -26,10 +26,9 @@ int main()
 	}
 }
 
-/**
- * Restituisce la somma dei divisori propri
- * di un numero n (escluso il numero stesso).
- */
+///<summary>Restituisce la somma dei divisori propri
+///di un numero n (escluso il numero stesso).</summary>
+/// <param name="n">numero di cui trovare la somma dei divisori</param>
 int sdiv(int n)
 {
 	int resto;
